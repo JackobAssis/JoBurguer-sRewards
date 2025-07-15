@@ -1,0 +1,10 @@
+/* Importação dos módulos CSS */
+@import url('./base/_variables.css');
+@import url('./base/_base.css');
+@import url('./components/_buttons.css');
+@import url('./components/_modals.css');
+@import url('./components/_cards.css');
+@import url('./layouts/_header.css');
+@import url('./layouts/_footer.css');
+@import url('./layouts/_grid.css');
+@import url('./views/_main.css');

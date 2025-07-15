@@ -1,0 +1,51 @@
+<!-- Painel ADM -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel ADM | JoBurguer's Rewards</title>
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/views/_admin.css">
+</head>
+<body>
+  <header>
+    <span id="adminName"></span>
+    <button id="logoutBtn">Sair</button>
+  </header>
+
+  <main>
+    <nav class="admin-tabs">
+      <button class="admin-tab" data-tab="clientes">Clientes</button>
+      <button class="admin-tab" data-tab="pontos">Pontos</button>
+      <button class="admin-tab" data-tab="cardapio">Cardápio</button>
+      <button class="admin-tab" data-tab="config">Configurações</button>
+      <button class="admin-tab" data-tab="relatorios">Relatórios</button>
+    </nav>
+    <section id="clientes" class="admin-section">
+      <h2>Clientes</h2>
+      <form id="addClientForm">
+        <label for="clientPhone">Telefone:</label>
+        <input type="text" id="clientPhone" name="clientPhone" required>
+        <label for="clientName">Nome:</label>
+        <input type="text" id="clientName" name="clientName" required>
+        <button type="submit">Adicionar/Editar Cliente</button>
+      </form>
+      <div id="clientsList"></div>
+    </section>
+    <section id="cardapio" class="admin-section">
+      <h2>Cardápio</h2>
+      <form id="addMenuItemForm">
+        <label for="itemName">Nome do Item:</label>
+        <input type="text" id="itemName" name="itemName" required>
+        <label for="itemPoints">Pontos Gerados:</label>
+        <input type="number" id="itemPoints" name="itemPoints" required>
+        <button type="submit">Adicionar/Editar Item</button>
+      </form>
+      <div id="menuList"></div>
+    </section>
+    <!-- Outras seções -->
+  </main>
+</body>
+</html>

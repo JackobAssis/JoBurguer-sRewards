@@ -1,0 +1,76 @@
+/* Estilos específicos para admin.html */
+
+body {
+  background: var(--background-color);
+}
+
+.admin-header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0 1rem 0;
+}
+.admin-tab {
+  background: var(--accent-color);
+  color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.admin-tab.active {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.admin-section {
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.admin-card {
+  background: var(--accent-color);
+  color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.admin-modal {
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  padding: 2rem;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.admin-btn {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.admin-btn:hover {
+  background: var(--accent-color);
+  color: var(--secondary-color);
+}

@@ -1,0 +1,10 @@
+/* Variáveis de cores, fontes, espaçamentos */
+:root {
+  --primary-color: #d7263d;
+  --secondary-color: #02182b;
+  --accent-color: #ffc600;
+  --background-color: #fff;
+  --text-color: #222;
+  --border-radius: 8px;
+  --font-family: 'Inter', Arial, sans-serif;
+}

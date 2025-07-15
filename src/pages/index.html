@@ -1,0 +1,46 @@
+<!-- Painel Principal (Landing Page) -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoBurguer's Rewards</title>
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <header>
+    <img src="../assets/images/logo.png" alt="JoBurguer's" style="height:48px;">
+    <nav>
+      <button id="clientLoginBtn">Entrar como Cliente</button>
+      <button id="adminLoginBtn">Entrar como ADM</button>
+      <button id="whatsappBtn">WhatsApp</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>JoBurguer's Rewards</h1>
+      <p>Acumule pontos e troque por prêmios deliciosos!</p>
+    </section>
+    <!-- Outras seções -->
+  </main>
+
+  <footer>
+    <p>Contato: (xx) xxxxx-xxxx | joburguer@email.com</p>
+  </footer>
+
+  <!-- Modal de Login/Cadastro -->
+  <div id="loginModal" class="modal">
+    <form id="loginForm">
+      <h2>Entrar ou Cadastrar</h2>
+      <label for="phone">Telefone:</label>
+      <input type="text" id="phone" name="phone" required placeholder="(xx) xxxxx-xxxx">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required placeholder="Seu nome">
+      <button type="submit">Entrar</button>
+      <button type="button" id="closeLoginModal">Cancelar</button>
+    </form>
+  </div>
+</body>
+</html>

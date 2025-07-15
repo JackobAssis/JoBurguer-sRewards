@@ -1,0 +1,38 @@
+<!-- Painel do Cliente -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área do Cliente | JoBurguer's Rewards</title>
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/views/_client.css">
+</head>
+<body>
+  <header>
+    <span id="clientName"></span>
+    <button id="logoutBtn">Sair</button>
+  </header>
+
+  <main>
+    <section class="points">
+      <h2>Seus Pontos</h2>
+      <div id="pointsBar"></div>
+      <span id="pointsValue"></span>
+    </section>
+    <section class="history">
+      <h2>Histórico de Pontos</h2>
+      <table id="historyTable"></table>
+    </section>
+    <section class="redeem">
+      <h2>Resgatar Prêmio</h2>
+      <form id="redeemForm">
+        <label for="prizeId">Prêmio:</label>
+        <input type="text" id="prizeId" name="prizeId" required>
+        <button type="submit">Resgatar</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
