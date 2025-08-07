@@ -1,1 +1,6 @@
-/* Estilos para footer */
+footer {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+}

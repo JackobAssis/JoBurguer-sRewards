@@ -1,8 +1,4 @@
-/* Estilos específicos para admin.html */
-
-body {
-  background: var(--background-color);
-}
+body { background: var(--background-color); }
 
 .admin-header {
   background: var(--primary-color);
@@ -19,6 +15,7 @@ body {
   gap: 1rem;
   margin: 2rem 0 1rem 0;
 }
+
 .admin-tab {
   background: var(--accent-color);
   color: var(--secondary-color);
@@ -28,13 +25,14 @@ body {
   cursor: pointer;
   transition: background 0.2s;
 }
+
 .admin-tab.active {
   background: var(--primary-color);
   color: #fff;
 }
 
 .admin-section {
-  background: #fff;
+  background: var(--white);
   border-radius: var(--border-radius);
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   padding: 2rem;
@@ -51,7 +49,7 @@ body {
 }
 
 .admin-modal {
-  background: #fff;
+  background: var(--white);
   border-radius: var(--border-radius);
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
   padding: 2rem;
@@ -70,6 +68,7 @@ body {
   cursor: pointer;
   transition: background 0.2s;
 }
+
 .admin-btn:hover {
   background: var(--accent-color);
   color: var(--secondary-color);

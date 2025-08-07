@@ -1,10 +1,12 @@
-/* Variáveis de cores, fontes, espaçamentos */
 :root {
-  --primary-color: #d7263d;
-  --secondary-color: #02182b;
-  --accent-color: #ffc600;
-  --background-color: #fff;
-  --text-color: #222;
+  --primary-color: #B22222;
+  --secondary-color: #2E1A17;
+  --accent-color: #FFC857;
+  --highlight-color: #FF6F3C;
+  --background-color: #FFF8F0;
+  --text-color: #2E1A17;
+  --white: #ffffff;
+
   --border-radius: 8px;
-  --font-family: 'Inter', Arial, sans-serif;
+  --font-family: 'Poppins', 'Roboto', sans-serif;
 }
